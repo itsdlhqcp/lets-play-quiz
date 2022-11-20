@@ -1,0 +1,10 @@
+
+.rule_box .rule-list .rule{
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+.rule_box .rule-list .info span{
+    font-weight: 600;
+    color: #007bff;
+}

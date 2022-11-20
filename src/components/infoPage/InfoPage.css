@@ -1,0 +1,31 @@
+
+.info-form .form-group{
+    margin: 20px 0;
+}
+ 
+.info-form .form-group input, .info-form .form-group select{
+    width: 80%;
+    margin: 5px auto;
+    border: 1px solid gray;
+    display: block;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    color: gray
+}
+
+.info-form .form-group input:focus, .info-form .form-group select:focus{
+    outline: 0.5px solid gray;
+}
+
+.info-form .form-group label{
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 768px){
+    .info-form .form-group label{
+        margin-left: 40px;
+    }
+}
+
